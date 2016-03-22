@@ -14,12 +14,9 @@ class FBController extends CI_Controller {
 	
 	public function index()
 	{          
-					if(isset($_REQUEST['request_ids']))
-							  {
+					
 								  
-									 redirect(site_url()."/Request/request_ids/".$_REQUEST['request_ids']); 
-								  
-							  }
+							
 						
 	            $fb = $this->facebook_model->facebookInit();
 				$app_id = '510164795824545';
