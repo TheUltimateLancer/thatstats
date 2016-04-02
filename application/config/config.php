@@ -25,17 +25,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 //print_r($_SERVER['SERVER_NAME']);
-if($_SERVER['SERVER_NAME'] !="localhost")
-{
+/* if($_SERVER['SERVER_NAME'] !="localhost")
+{*/
 $config['base_url'] = 'https://thatstats.herokuapp.com';
-	
+	/*
 }
-else{
+else{ 
 	
 $config['base_url'] = 'https://localhost/thatstats';
-	
+ 	
 }
-
+ */
 /*
 |--------------------------------------------------------------------------
 | Index File

@@ -8,8 +8,8 @@
     var Portlet = function() {
         this.$body = $("body"),
         this.$portletIdentifier = ".portlet",
-        this.$portletCloser = '.portlet a[data-toggle="remove"]',
-        this.$portletRefresher = '.portlet a[data-toggle="reload"]'
+        this.$portletCloser     =  '.portlet a[data-toggle="remove"]',
+        this.$portletRefresher  = '.portlet a[data-toggle="reload"]'
     };
 
     //on init

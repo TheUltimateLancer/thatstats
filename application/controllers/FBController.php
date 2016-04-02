@@ -19,7 +19,7 @@ class FBController extends CI_Controller {
 							
 						
 	            $fb = $this->facebook_model->facebookInit();
-				$app_id = '510164795824545';
+				$app_id = '218614941831199';
 				$helper = $fb->getRedirectLoginHelper();
 				try {
 				  $accessToken = $helper->getAccessToken();
@@ -139,7 +139,7 @@ class FBController extends CI_Controller {
 
 						
 						
-						redirect(site_url()."/Profile");
+						redirect(site_url()."/Dashboard");
 						
 												
                         
