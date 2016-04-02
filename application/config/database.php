@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'villagepump.website',
+	'hostname' => 'http://villagepump.website',
 	'username' => 'villcbtm_admin',
 	'password' => '114667510',
 	'database' => 'thatstats',
